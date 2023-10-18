@@ -7,8 +7,8 @@
 ### Configuración
 Primero vamos a configurar Git definiendo el nombre del usuario, el correo electrónico y activar el coloreado de salida.
 ```
-  git config --global user.name "Your-Full-Name"
-  git config --global user.email "your-email-address"
+  git config --global user.name "Melissa Ruiz"
+  git config --global user.email "melruizglez97@gmail.com"
 ```
 Para el color
 ```
