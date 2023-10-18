@@ -16,7 +16,9 @@ Para realizar esta acción se debe ejecutar el comando:
 ```
 git show
 ```
-En pantalla nos muestra lo siguiente:
+
+
+En pantalla nos muestra lo siguiente:   
 <img src = "Capturas/output2.png">
   
 Vamos a crear la carpeta 'capítulos' y dentro de ella el fichero capitulo1.txt, para ello vamos a utilizar el siguiente comando: 
@@ -62,13 +64,13 @@ El flujo de trabajo básico con Git consiste en:
  git add .
 git commit -m "Añadido capítulo 2."
  ```
- Output de todo lo realizado anteriormente: 
+ Output de todo lo realizado anteriormente:   
  <img src = "Capturas/output5.png">
  - Mostrar las diferencias entre la última versión y dos versiones anteriores. Para ello usamos 
  ```
  git diff HEAD~2..HEAD
  ```
- Output de las diferencias: 
+ Output de las diferencias:   
  <img src = "Capturas/output4.png">
 
  ## Ejercicio 3
@@ -96,7 +98,7 @@ git log
 git diff <codigo hash de la primera version>..HEAD
  ```
 
- __Output__:
+ __Output__:  
  <img src = "Capturas/output6.png">
  
  ## Ejercicio 4
@@ -151,7 +153,7 @@ git add .
 git commit -m "Añadido capítulo 4."
 git log --graph --all --oneline
  ```
- __Output__:
+ __Output__:  
  <img src = "Capturas/output10.png">
 
  ## Ejercicio 7
@@ -173,7 +175,7 @@ git add .
 git commit -m "Añadida primera referencia bibliográfica."
 git log --graph --all --oneline
 ```
-__Output__:
+__Output__:   
 <img src = "Capturas/output11.png">  
 
 ## Ejercicio 8
@@ -191,7 +193,7 @@ git branch -d bibliografia
 git log --graph --all --oneline
  ```
 
- __Output__:
+ __Output__:  
  <img src = "Capturas/output13.png">
 
  ## Ejercicio 9
@@ -240,7 +242,7 @@ git nano bibliografia
 git commit -a -m "Solucionado conflicto bibliografía."
 git log --graph --all --oneline
  ```
- __Output__: 
+ __Output__:   
  <img src = "Capturas/output15.png">
  <img src = "Capturas/output16.png">
 
