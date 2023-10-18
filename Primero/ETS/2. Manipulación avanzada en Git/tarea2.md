@@ -17,7 +17,7 @@ Para realizar esta acción se debe ejecutar el comando:
 git show
 ```
 En pantalla nos muestra lo siguiente:
-<img src = "output2.png">
+<img src = "capturas/output2.png">
   
 Vamos a crear la carpeta 'capítulos' y dentro de ella el fichero capitulo1.txt, para ello vamos a utilizar el siguiente comando: 
 ```
@@ -37,7 +37,7 @@ Git es un sistema de control de versiones ideado por Linus Torvalds.
  git log
  ```
   __Output:__  
- <img src = "output3.png">   
+ <img src = "capturas/output3.png">   
 
  ## Ejercicio 2
  - Crear el fichero capitulo2.txt en la carpeta capítulos con el siguiente texto:
@@ -63,13 +63,13 @@ El flujo de trabajo básico con Git consiste en:
 git commit -m "Añadido capítulo 2."
  ```
  Output de todo lo realizado anteriormente: 
- <img src = "output5.png">
+ <img src = "capturas/output5.png">
  - Mostrar las diferencias entre la última versión y dos versiones anteriores. Para ello usamos 
  ```
  git diff HEAD~2..HEAD
  ```
  Output de las diferencias: 
- <img src = "output4.png">
+ <img src = "capturas/output4.png">
 
  ## Ejercicio 3
   - Crear el fichero capitulo3.txt en la carpeta capítulos con el siguiente texto.
@@ -97,7 +97,7 @@ git diff <codigo hash de la primera version>..HEAD
  ```
 
  __Output__:
- <img src = "output6.png">
+ <img src = "capturas/output6.png">
  
  ## Ejercicio 4
  - Crea el fichero índice.txt la siguiente línea:
@@ -119,7 +119,7 @@ Para ello usaremos el siguiente código:
  git annotate indice.txt
 ```
 __Output__:     
-<img src = "output7.png">
+<img src = "capturas/output7.png">
 
 ## Ejercicio 5
 Crear una nueva rama bibliografía y mostrar las ramas del repositorio.  
@@ -130,7 +130,7 @@ Para ello utilizaremos el siguiente código:
 ```
 __Output__: 
 
-<img src = "output8.png">
+<img src = "capturas/output8.png">
 
 ## Ejercicio 6
  - Crear el fichero capitulos/capitulo4.txt y añadir el texto siguiente:
@@ -152,7 +152,7 @@ git commit -m "Añadido capítulo 4."
 git log --graph --all --oneline
  ```
  __Output__:
- <img src = "output10.png">
+ <img src = "capturas/output10.png">
 
  ## Ejercicio 7
   - Cambiar a la rama bibliografía.
@@ -174,7 +174,7 @@ git commit -m "Añadida primera referencia bibliográfica."
 git log --graph --all --oneline
 ```
 __Output__:
-<img src = "output11.png">  
+<img src = "capturas/output11.png">  
 
 ## Ejercicio 8
  - Fusionar la rama bibliografía con la rama main.
@@ -192,7 +192,7 @@ git log --graph --all --oneline
  ```
 
  __Output__:
- <img src = "output13.png">
+ <img src = "capturas/output13.png">
 
  ## Ejercicio 9
   - Crear la rama bibliografía.
@@ -214,31 +214,34 @@ Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
 ```console
 Chacon, S. and Straub, B. Pro Git. Apress.
 Loeliger, J. and McCullough, M. Version control with Git. O’Reilly.
-```
 Hodson, R. Ry’s Git Tutorial. Smashwords (2014)
+```
  - Añadir los cambios a la zona de intercambio temporal y hacer un commit con el mensaje “Resuelto conflicto de bibliografía.”
  - Mostrar la historia del repositorio incluyendo todas las ramas.
 
  Para ello haremos lo siguiente: 
  ```
 git branch bibliografia
- git checkout bibliografia
+git checkout bibliografia
+```
  cat > bibliografia.txt
  - Scott Chacon and Ben Straub. Pro Git. Apress.
  - Ryan Hodson. Ry's Git Tutorial. Smashwords (2014)
-  git commit -a -m "Añadida nueva referencia bibliográfica."
+git commit -a -m "Añadida nueva referencia bibliográfica."
  git checkout main
  cat > bibliografia.txt
  - Chacon, S. and Straub, B. Pro Git. Apress.
  - Loeliger, J. and McCullough, M. Version control with Git. O'Reilly.
 git commit -a -m "Añadida nueva referencia bibliográfica."
- git merge bibliografia
- git nano bibliografia
+git merge bibliografia
+git nano bibliografia
  # Hacer los cambios indicados en el fichero
- git commit -a -m "Solucionado conflicto bibliografía."
- git log --graph --all --oneline
+ ```
+git commit -a -m "Solucionado conflicto bibliografía."
+git log --graph --all --oneline
  ```
  __Output__: 
- <img src = "output15.png">
- <img src = "output16.png">
+ <img src = "capturas/output15.png">
+ <img src = "capturas/output16.png">
+ 
 </div>
