@@ -16,7 +16,7 @@ Para el color
   git config --list
 ```
 Salida:     
-<image src = "capturas/output1.png">
+<image src = "Capturas/output1.png">
 
 ## Creación de un repositorio 
 Crear un repositorio nuevo con el nombre *dpl* y mostrar su contenido
