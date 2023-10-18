@@ -16,7 +16,7 @@ Para el color
   git config --list
 ```
 Salida:     
-<image src = "capturas/output1.png">
+<image src = "Capturas/output1.png">
 
 ## Creación de un repositorio 
 Crear un repositorio nuevo con el nombre *dpl* y mostrar su contenido
@@ -31,7 +31,7 @@ __Nota:__ mkdir crea un directorio. cd entra dentro del directorio y ls -la list
 
 
 Salida:  
-<image src = "capturas/output2.png">
+<image src = "Capturas/output2.png">
 
 ## Comprobar el estado del repositorio
 - Comprobar el estado del repositorio
@@ -43,7 +43,7 @@ Capítulo 2: Flujo de trabajo básico.
 
 Salida:      
 
-<image src = "capturas/output3.png">
+<image src = "Capturas/output3.png">
 
 ## Realizando Commits
 Realizar un commit de los últimos cambios con el mensaje __Añadido índice de la asignatura DPL.__ y ver el estado del repositorio. 
@@ -52,7 +52,7 @@ git commit -m "Añadido índice de la asignatura DPL."
 git status
 ```
 Salida:     
-<image src = "capturas/output4.png">
+<image src = "Capturas/output4.png">
 
 ## Modificación de ficheros 
 - Cambiar el fichero indice.txt para que contenga lo siguiente:     
@@ -82,12 +82,12 @@ git commit -m "Añadido los capitulos 3 y 4"
 Salida de nano para la modificación de texto:
 
 
-<image src = "capturas/nano.png">
+<image src = "Capturas/nano.png">
 Salida de todo lo demás: 
 
 
 
-<image src = "capturas/output5.png">
+<image src = "Capturas/output5.png">
 
 ## Historial
 - Mostrar los cambios de la última versión del repositorio con respecto a la anterior.
@@ -107,5 +107,5 @@ git show
 ```
 
 __Resultados:__ 
-<image src = "capturas/output6.png">
+<image src = "Capturas/output6.png">
 </div>

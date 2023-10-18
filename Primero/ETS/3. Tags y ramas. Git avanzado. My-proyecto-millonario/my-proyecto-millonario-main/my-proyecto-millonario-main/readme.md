@@ -7,7 +7,7 @@ Vamos a crear un repositorio en GitHub que se llame "my-proyecto-millonario" htt
 - Creamos repositorio
 <img src = "images/captura1.png">
 
-- Clonamos repositorio en Git.
+- Clonamos repositorio en Git
   
 <img src = "images/captura3.png">
 
