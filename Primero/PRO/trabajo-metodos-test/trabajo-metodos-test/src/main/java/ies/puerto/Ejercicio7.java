@@ -8,6 +8,6 @@ public class Ejercicio7 {
 
     public String calcularDiaSemana(String resultado) {
         String resultado = "Domingo";
-
+        Switch
         return resultado;
 }

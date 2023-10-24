@@ -7,12 +7,18 @@ public class Ejercicio7Test {
 
     Ejercicio7 ejercicio7 = new Ejercicio7();
     @Test
-    public void calcularLunesTestOK() {
-        String resultado = "";
-        String resultadoOK = "Lunes";
+    public void calcularDiaSemanaTestOK(String strDia, int numero) {
+        verificarDíaSemana (Lunes, 1)
+        verificarDiaSemana (Martes, 2)
 
         resultado = ejercicio7.calcularDiaSemana(1);
-        Assertions.assertEquals(resultadoOK, resultado, "No se ha obtenido el resultado esperado");
+        Assertions.assertEquals(strDia, resultado, "No se ha obtenido el resultado esperado");
+
+    }
+    @Test
+    public void calcularLunesTestOK(String strDia, int numeroDia) {
+        String resultado = "";
+
 
     }
 }
