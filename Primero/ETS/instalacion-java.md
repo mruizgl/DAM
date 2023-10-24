@@ -1,0 +1,11 @@
+<div>
+
+# Instalación de JDK en Linux
+## Introducción
+Vamos a instalar Java con el JDK el cual es un entorno de desarrollo y el entorno de ejecución JRE. También aprenderemos a movernos en sus diferentes versiones en función de nuestras necesidades, pero antes vamos a hablar sobre qué es Java.
+### ¿Qué es Java?
+Java es un lenguaje de programación creada por Sun Microsystems en 1995. Ha evolucionado desde sus humildes comienzos hasta impulsar una gran parte del mundo digital actual, ya que es una plataforma fiable en la que se crean muchos servicios y aplicaciones.   
+### ¿Cómo instalar Java en Ubuntu desde repositorios?
+Lo primero debemos de actualizar el sistema con:
+
+</div>
