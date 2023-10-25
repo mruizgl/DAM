@@ -11,14 +11,14 @@ public class Ejercicio4Test {
         ejercicio4 = new Ejercicio4();
     }
     @Test
-    public void testCalcularMaximoDosNumeros() {
-        double resultado = Ejercicio4.calcularMaximo(5.0, 8.0);
-        Assertions.assertEquals(8.0, resultado, 0.001);
+    public void calcularMaximoDosNumerosTest() {
+        double resultado = Ejercicio4.calcularMaximo(5, 8);
+        Assertions.assertEquals(8, resultado, "El valor obtenido no es el esperado");
     }
 
     @Test
-    public void testCalcularMaximoTresNumeros() {
-        double resultado = Ejercicio4.calcularMaximo(5.0, 8.0, 3.0);
-        Assertions.assertEquals(8.0, resultado, 0.001);
+    public void calcularMaximoTresNumerosTest() {
+        double resultado = Ejercicio4.calcularMaximo(5, 8, 3);
+        Assertions.assertEquals(8.0, resultado, "El valor obtenido no es el esperado");
     }
 }
