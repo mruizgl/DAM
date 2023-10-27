@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: ies.puerto.Ejercicio3Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.011 s <<< FAILURE! - in ies.puerto.Ejercicio3Test
+calcularCuadradoTest  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: No se ha obtenido el resultado esperado ==> expected: <0.0> but was: <9.0>
+	at ies.puerto.Ejercicio3Test.calcularCuadradoTest(Ejercicio3Test.java:20)
+
+calcularRectanguloTest  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: No se ha obtenido el resultado esperado ==> expected: <0.0> but was: <9.0>
+	at ies.puerto.Ejercicio3Test.calcularRectanguloTest(Ejercicio3Test.java:28)
+

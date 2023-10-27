@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ies.puerto.Ejercicio2Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ies.puerto.Ejercicio2Test
+calcularCirculo  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: No se ha obtenido el resultado esperado ==> expected: <0.0> but was: <28.2744>
+	at ies.puerto.Ejercicio2Test.calcularCirculo(Ejercicio2Test.java:19)
+
