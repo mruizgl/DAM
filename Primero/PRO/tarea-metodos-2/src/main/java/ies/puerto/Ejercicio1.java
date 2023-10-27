@@ -12,7 +12,7 @@ public class Ejercicio1 {
      * @param horasMes valor de las horas trabajadas en el mes por el empleado
      * @return devuelve el sueldo al hacer horas * 10
      */
-    public int sueldoTrabajador(int horasMes) {
+    public float sueldoTrabajador(float horasMes) {
 
         return horasMes * 10;
     }

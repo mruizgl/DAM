@@ -9,54 +9,61 @@ import java.util.Scanner;
  */
 public class Ejercicio3 {
     /**
-     * Funcion que solicita al usuario que ingrese 5 números, luego muestra los números ingresados,
-     * la suma de esos números, y finalmente los muestra en orden creciente y en orden decreciente
+     * Funcion que suma dos valores
+     *
+     * @param valor1 Primer numero
+     * @param valor2 Segundo numero
      */
-    public static void recogerNumeros() {
-        Scanner input = new Scanner(System.in);
-        int[] numeros = new int[5];
-            for (int i = 0; i < 5; i++) {
-            System.out.print("Ingresa el número " + (i + 1) + ": ");
-            numeros[i] = input.nextInt();
-        }
-
-        System.out.print("Los números ingresados son: ");
-        mostrarNumeros(numeros);
-
-        int suma = calcularSuma(numeros);
-        System.out.println("La suma de los números es: " + suma);
-
-        System.out.print("Los números en orden creciente son: ");
-        Arrays.sort(numeros);
-        mostrarNumeros(numeros);
-
-        System.out.print("Los números en orden decreciente son: ");
-        for (int i = numeros.length - 1; i >= 0; i--) {
-            System.out.print(numeros[i] + " ");
-        }
+    public int suma(int valor1, int valor2) {
+        return valor1 + valor2;
     }
 
-    /**
-     * Metodo que calcula la suma de los numeros ingresados
-     * @param numeros valor para hacer la suma
-     * @return devuelve la suma de los numeros ingresados
-     */
-    public static int calcularSuma(int[] numeros) {
-        int suma = 0;
-        for (int numero : numeros) {
-                suma += numero;
-            }
-        return suma;
+    public int suma(int valor1, int valor2, int valor3) {
+        int resultado = suma(valor1, valor2);
+        return suma(resultado, valor3);
     }
 
-    /**
-     * Metodo para mostrar los numeros ingresados
-     * @param numeros Los numeros que han sido ingresados
-     */
-    public static void mostrarNumeros(int[] numeros) {
-        for (int numero : numeros) {
-            System.out.print(numero + " ");
+    public int mayor (int valor1, int valor2) {
+        int resultado = valor1;
+        if (valor1 > valor2) {
+            resultado = valor2;
         }
-        System.out.println();
+        return resultado;
     }
+
+    public int mayor (int valor1, int valor2, int valor3) {
+        int resultado = mayor(valor1, valor2);
+        return resultado;
+    }
+
+    public int menor (int valor1, int valor2) {
+        int resultado = valor2;
+        if (valor1 > valor2) {
+            resultado = valor2;
+        }
+        return resultado;
+    }
+    public int menor (int valor1, int valor2, int valor3) {
+        int resultado = menor(valor1, valor2);
+        return resultado;
+    }
+
+    public int intermedio (int valor1, int valor2, int valor3) {
+        int mayor = mayor(valor1, valor2);
+        int menor = menor(valor1, valor2);
+        int intermedio = mayor - menor;
+
+        return intermedio;
+    }
+
+    public String mostrarOrdenCreciente (int valor1, int valor2) {
+        int mayor = mayor(valor1, valor2);
+        int menor = menor(valor1, valor2);
+        int intermedio = mayor - menor;
+
+        return "El orden creciente es " + mayor + ", " + menor + ", " + intermedio;
+
+    }
+
 }
+

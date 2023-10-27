@@ -21,9 +21,9 @@ public class Ejercicio3Test {
 
     @Test
     public void calcularSumaTest() {
-        int[] numeros = {1, 2, 3, 4, 5};
-        int suma = Ejercicio3.calcularSuma(numeros);
-        Assertions.assertEquals(15, suma, "No se obtuvo el resultado esperado");
+        int suma = ejercicio3.suma(10, 20);
+        int resultado = suma + ejercicio3.suma(30, 10, 50);
+        Assertions.assertEquals(120, resultado, "No se obtuvo el resultado esperado");
     }
 }
 

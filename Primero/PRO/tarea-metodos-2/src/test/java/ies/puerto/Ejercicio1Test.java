@@ -12,10 +12,15 @@ public class Ejercicio1Test {
     public void before() { ejercicio1 = new Ejercicio1(); }
 
     @Test
-    public void horasTrabajadas() {
-        int horasMes = 100;
-        int sueldo = ejercicio1.sueldoTrabajador(horasMes);
-        Assertions.assertEquals(sueldo, 1000, "No se ha obtenido el resultado esperado");
+    public void horasTrabajadasTestOK() {
+        float sueldo = ejercicio1.sueldoTrabajador(10); //aqui se pone lo que vamos a probar
+        Assertions.assertEquals(100, sueldo, "No se ha obtenido el resultado esperado");
+    }
+
+    @Test
+    public void horasTrabajadas205Test() {
+        float sueldo = ejercicio1.sueldoTrabajador(10.25f);
+        Assertions.assertEquals(102.5, sueldo, "No se ha obtenido el resultado esperado");
     }
 
 }
