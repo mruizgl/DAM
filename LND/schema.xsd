@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+ <xs:element name="alumno">
+<xs:complexType>
+  <xs:sequence>
+   <xs:element ref="alumno" minOccurs="1" maxOccurs="unbounded"></xs:element> 
+
+  
+  </xs:sequence>
+</xs:complexType>
+ </xs:element>
+
+
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="edad" type="xs:integer"/>
+        <xs:element name="nota" type="xs:decimal" minOccurs="1" maxOccurs="10"/>
+        <xs:element name="telefono" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
