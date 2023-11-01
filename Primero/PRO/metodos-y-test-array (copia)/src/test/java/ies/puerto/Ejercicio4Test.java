@@ -15,7 +15,7 @@ public class Ejercicio4Test {
     }
 
     @Test
-    public void testEncontrarNumeroMayor() {
+    public void obtenerParOkTest() {
         int[] numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         int paresOk = Ejercicio4.obtenerPar();
