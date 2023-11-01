@@ -12,10 +12,21 @@ public class Ejercicio3Test {
     public void before() { ejercicio3 = new Ejercicio3(); }
 
     @Test
-    public void sumaEnterosTestOk() {
-        int numeroMayor = ejercicio3.calcularMayor();
-        Assertions.assertEquals(5, numeroMayor, "No se ha obtenido el resultado esperado");
+    public void testEncontrarNumeroMayor() {
+        int[] numeros = {2, 3, 4, 1, 5};
+
+        int numeroMenor = ejercicio3.calcularMayor();
+
+        Assertions.assertEquals(5, numeroMenor, "No se ha obtenido el resultado esperado");
     }
+    @Test
+    public void testEncontrarNumeroMenor() {
+        int[] numeros = {2, 3, 4, 1, 5};
 
+        int numeroMenor = ejercicio3.calcularMenor();
 
+        Assertions.assertEquals(1, numeroMenor, "No se ha obtenido el resultado esperado");
+    }
 }
+
+
