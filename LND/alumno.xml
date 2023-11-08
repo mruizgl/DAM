@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/dam/DAM/LND/schema.xsd">m
-	<nombre dni=>Juan</nombre>
-	<edad>23</edad>
-	<nota>8.5</nota>
-	<nota>7.5</nota>
-	<telefono>678945213</telefono>
-</alumno>
