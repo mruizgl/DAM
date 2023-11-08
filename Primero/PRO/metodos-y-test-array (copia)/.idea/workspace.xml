@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="277a41c6-f034-4892-97cb-ff215ed06d2b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2XULkpKwa2xRA89R9HuvBwZ2Vmw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/dam/Descargas/metodos-y-test-array"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.Ejercicio3Test">
+    <configuration name="Ejercicio1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.Ejercicio1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio1Test.sumaEnterosTestOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.Ejercicio1Test" />
+      <option name="METHOD_NAME" value="sumaEnterosTestOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.Ejercicio2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio3Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.Ejercicio3Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Ejercicio3Test" />
+        <item itemvalue="JUnit.Ejercicio2Test" />
+        <item itemvalue="JUnit.Ejercicio1Test" />
+        <item itemvalue="JUnit.Ejercicio1Test.sumaEnterosTestOk" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="277a41c6-f034-4892-97cb-ff215ed06d2b" name="Changes" comment="" />
+      <created>1698678860739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698678860739</updated>
+    </task>
+    <servers />
+  </component>
+</project>

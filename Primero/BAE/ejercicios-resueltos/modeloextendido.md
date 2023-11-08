@@ -68,7 +68,7 @@ Entidades:
 | __Personal investigador__ *pueden realizar* __proyectos__ (incluso conjuntamente) de investigación sobre una determinada especie.    | Relación N:M   |
 | Un __visitante__ *puede alojarse* dentro de los __alojamientos__ de que dispone el parque.    | Relación N:1   | 
 
-<img src = "modeloindividual.png">
+<img src = "images/modeloindividual.png">
 
 
 
