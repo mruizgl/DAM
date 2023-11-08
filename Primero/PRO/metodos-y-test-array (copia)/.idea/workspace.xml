@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="277a41c6-f034-4892-97cb-ff215ed06d2b" name="Changes" comment="" />
+    <list default="true" id="277a41c6-f034-4892-97cb-ff215ed06d2b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ejercicios-objetos/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/dam/Descargas/metodos-y-test-array"
+    "last_opened_file_path": "C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/metodos-y-test-array"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.Ejercicio3Test">
