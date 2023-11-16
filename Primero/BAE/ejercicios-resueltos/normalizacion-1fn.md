@@ -10,11 +10,11 @@ Una tabla está en primera forma normal si:
 
 ### Ejercicio 1
 Se tiene la siguiente tabla:    
-| Nombre | Apellido | Edad | Dirección |   |
-|:------:|:--------:|:----:|:---------:|---|
-| Juan   | Pérez    | 30   | Calle 123 |   |
-| María  | López    | 25   | Calle 456 |   |
-| Pedro  | García   | 40   | Calle 789 |   |
+| Nombre | Apellido | Edad | Dirección |
+|:------:|:--------:|:----:|:---------:|
+| Juan   | Pérez    | 30   | Calle 123 | 
+| María  | López    | 25   | Calle 456 |
+| Pedro  | García   | 40   | Calle 789 |
 
 ¿Está esta tabla en 1FN?    
 __RESPUESTA:__  
