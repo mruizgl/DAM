@@ -1,5 +1,9 @@
 package ies.puerto;
 
+/**
+ * Clase que tiene como objetivo en una empresa de transporte guardar el nombre de los conductores que tiene,
+ * y los kilómetros que conducen cada día de la semana.
+ */
 public class Ejercicio7 {
 
 
