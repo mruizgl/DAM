@@ -51,13 +51,10 @@ public class Persona {
     public void setTelefono(int telefono) {
         this.telefono = telefono;
     }
+
     /**
-     public void imprimir() {
-     System.out.println("Nombre: " + nombre);
-     System.out.println("Edad: " + edad);
-     System.out.println("Email: " + email);
-     System.out.println("Telefono: " + telefono);
-     }
+     * Funcion que imprime resultado
+     * @return devuelve resultado
      */
     public String imprimir() {
         return "Nombre: " + nombre + "Edad: " + edad + "email: " + email + "Teléfono: " + telefono;
