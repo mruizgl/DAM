@@ -39,16 +39,37 @@ En función de la información que nos han proporcionado hemos realizado un diag
 
 ------------------
 
-|  Actor | Enfermero |
-|---|---|
-| Descripción  | _Profesional médico encargado de diagnosticar y tratar a los pacientes_  |
-| Características  | _Realiza diagnósticos, prescribe tratamientos, asigna tareas a los enfermeros..._ |
-| Relaciones | _Tiene relación con el actor Enfermero._  |
-| Referencias | _C.U. 4, C.U. 14, C.U. 5, C.U. 8, C.U. 3, C.U. 10_ |   
-|  Notas |   |
-| Autor  | _Melissa Ruiz_ |
-|Fecha | _15/11/2023_ |
+|  Actor | Enfermero                                                      |
+|---|----------------------------------------------------------------|
+| Descripción  | _Encargado de asistir a los médicos y cuidar a los pacientes._ |
+| Características  | _Encargado de asistir a los médicos y cuidar a los pacientes._ |
+| Relaciones | _Tiene relación con el actor Médico._                          |
+| Referencias | _C.U. 4, C.U. 13_                                              |   
+|  Notas |                                                                |
+| Autor  | _Melissa Ruiz_                                                 |
+|Fecha | _15/11/2023_                                                   |
 
+|  Actor | Administrador del Sistema                                     |
+|---|---------------------------------------------------------------|
+| Descripción  | _Responsable de la configuración y administración del sistema._ |
+| Características  | _Responsable de la configuración y administración del sistema._ |
+| Relaciones |                                                               |
+| Referencias | _C.U. 11, C.U. 8, C. U. 6_                                    |   
+|  Notas |                                                               |
+| Autor  | _Melissa Ruiz_                                                |
+|Fecha | _15/11/2023_                                                  |
+
+|  Actor | Recepcionista                                                   |
+|---|-----------------------------------------------------------------|
+| Descripción  | _Encargado de la recepción de pacientes y asignación de citas._ |
+| Características  | _Encargado de la recepción de pacientes y asignación de citas._ |
+| Relaciones | _Relación con Paciente en el C.U 2_                             |
+| Referencias | _C.U. 2, C.U. 7, C. U. 14_                                      |   
+|  Notas |                                                                 |
+| Autor  | _Melissa Ruiz_                                                  |
+|Fecha | _15/11/2023_                                                    |
+
+## Modelo final C.U.
 
 <img src = "uml.png">
 
