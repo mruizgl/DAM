@@ -71,6 +71,6 @@ En función de la información que nos han proporcionado hemos realizado un diag
 
 ## Modelo final C.U.
 
-<img src = "uml.png">
+<img src = "uml(2).png">
 
 </div>
