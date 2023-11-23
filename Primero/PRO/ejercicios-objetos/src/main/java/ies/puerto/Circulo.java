@@ -15,6 +15,7 @@ public class Circulo {
      * @param radio del circulo
      */
     public Circulo(double radio) {
+
         this.radio = radio;
     }
 
@@ -23,6 +24,7 @@ public class Circulo {
      * @return devuelve radio
      */
     public double getRadio() {
+
         return radio;
     }
 
@@ -39,6 +41,7 @@ public class Circulo {
      * @return devuelve el resultado del area
      */
     public double calcularArea() {
+
         return 3.141592653589793 * radio * radio;
     }
 
@@ -47,6 +50,7 @@ public class Circulo {
      * @return devuelve el resultado de la circunferencia
      */
     public double calcularCircunferencia() {
+
         return 2 * 3.141592653589793 * radio;
     }
 }

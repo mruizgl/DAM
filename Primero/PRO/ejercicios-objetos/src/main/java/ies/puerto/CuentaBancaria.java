@@ -57,6 +57,7 @@ public class CuentaBancaria {
      * @return devuelve resultado
      */
     public String mostrarSaldo() {
+
         return "Saldo actual de la cuenta " + numeroCuenta + ": €" + saldo;
     }
 }
