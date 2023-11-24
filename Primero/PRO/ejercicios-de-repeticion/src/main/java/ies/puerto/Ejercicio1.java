@@ -6,14 +6,8 @@ package ies.puerto;
 public class Ejercicio1 {
 
     public static void main(String[] args) {
-        int[] numeros = new int [100];
 
-        for (int i = 0; i < numeros.length; i++) {
-            numeros[i] = i +1;
-        }
-
-
-        for (int num : numeros) {
+        for (int num = 1; num <= 100; num++) {
             System.out.println("Revisando número: " + num);
 
             if ((num % 7 == 0) && (num % 5 == 0) ){

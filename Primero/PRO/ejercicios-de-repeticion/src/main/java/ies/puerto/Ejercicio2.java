@@ -5,14 +5,32 @@ package ies.puerto;
  */
 public class Ejercicio2 {
 
-    public boolean esPrimo(int valor) {
-        int [] array = new int[200];
-        for (int i = 2; i < array.length; i++) {
-            if (valor % i == 0) {
-                return false;
+    public static void main(String[] args) {
+        int numeroPrimo = encontrarPrimo();
+        System.out.println("Numero primo encontrado: " + numeroPrimo);
+    }
+
+    public static boolean esPrimo(int valor) {
+        boolean resultado = true;
+
+        for (int divisor = 2; divisor < valor; divisor++) {
+            if (valor % divisor == 0) {
+                resultado = false;
             }
         }
-        return true;
+        return resultado;
+    }
+
+    public static int encontrarPrimo () {
+        int numero = 100;
+
+        while(true) {
+            if (esPrimo(numero)) {
+                break;
+            }
+            numero++;
+        }
+        return numero;
     }
 
 }
