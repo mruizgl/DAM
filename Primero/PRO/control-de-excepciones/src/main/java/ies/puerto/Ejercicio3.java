@@ -1,17 +1,20 @@
 package ies.puerto;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-
 public class Ejercicio3 {
 
-    public static void main(String[] args) {
-        System.out.println("Hola chicos, soy el ejemplo 3");
-        File archivo = new File("archivo.txt");
+    public static void main(String[] args) throws ArrayIndexOutOfBoundsException {
+        int[] array = new int[3];
 
-        System.out.println("Voy a generar un NullPoninter" + archivo.getName());
+        try {
+            if (array.length > 4) {
+                throw new ArrayIndexOutOfBoundsException("Índice fuera de los límites del array");
+            }
 
+            int valor = array[4];
+            System.out.println("El valor obtenido es: " + valor);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Acceso a un índice fuera de los límites del array.");
 
+        }
     }
 }
