@@ -6,10 +6,6 @@ public class Ejercicio3 {
         int[] array = new int[3];
 
         try {
-            if (array.length > 4) {
-                throw new ArrayIndexOutOfBoundsException("Índice fuera de los límites del array");
-            }
-
             int valor = array[4];
             System.out.println("El valor obtenido es: " + valor);
         } catch (ArrayIndexOutOfBoundsException e) {
