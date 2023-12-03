@@ -88,18 +88,18 @@ Se pide:
 | Autor  | _Melissa Ruiz_                                                                           |
 |Fecha | _03/12/2023_                                                                             |
 
- |  Caso de Uso	CU | C.U.2: Gestionar Prestamos  |
-  |---|---|
-  | Fuentes  | _https://github.com/jpexposito/docencia/blob/master/Primero/ETS/DIAGRAMAS/DIAGRAMAS-CLASES/Ejemplos/biblioteca.md_  |
-  | Actor  |  _Bibliotecario_ |
-  | Descripción |  |
-  | Flujo básico | |
-  | Pre-condiciones |   |  
-  | Post-condiciones  |   |  
-  |  Requerimientos |  |
-  |  Notas |   |
-| Autor  | _Nabil León (@nalleon)_ |
-|Fecha | _03/12/2023_ |
+ |  Caso de Uso	CU | C.U.2: Gestionar Prestamos                                                                                         |
+  |---|--------------------------------------------------------------------------------------------------------------------|
+  | Fuentes  | _https://github.com/jpexposito/docencia/blob/master/Primero/ETS/DIAGRAMAS/DIAGRAMAS-CLASES/Ejemplos/biblioteca.md_ |
+  | Actor  | _Bibliotecario_                                                                                                    |
+  | Descripción |                                                                                                                    |
+  | Flujo básico |                                                                                                                    |
+  | Pre-condiciones |                                                                                                                    |  
+  | Post-condiciones  |                                                                                                                    |  
+  |  Requerimientos |                                                                                                                    |
+  |  Notas |                                                                                                                    |
+| Autor  | _Melissa Ruiz_                                                                                                     |
+|Fecha | _03/12/2023_                                                                                                       |
 
  |  Caso de Uso	CU | C.U.2: Ver Estado Copia                                                                   |
   |---|-------------------------------------------------------------------------------------------|
