@@ -140,7 +140,7 @@ Se pide:
 | Autor  | _Melissa Ruiz_                                                                            |
 |Fecha | _03/12/2023_                                                                              |
 ## Diagrama de casos de uso
-<img src=images/cu.PNG>
+<img src=images/cu.png>
 
 ## Diagrama de clases
 <img src=images/diagrama-clases.png>
