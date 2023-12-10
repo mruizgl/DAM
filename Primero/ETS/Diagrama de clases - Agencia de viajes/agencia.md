@@ -28,6 +28,6 @@ Se pide:
 
 
 ## Diagrama de clases
-<img src=../images/agencia.png>
+<img src=images/agencia.png>
 
 </div>
