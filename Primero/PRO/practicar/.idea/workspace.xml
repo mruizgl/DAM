@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae8a7970-3bb4-4a7d-8545-0db85b3a3453" name="Changes" comment="" />
+    <list default="true" id="ae8a7970-3bb4-4a7d-8545-0db85b3a3453" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../expresiones-regulares/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../expresiones-regulares/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/ejercicios-de-repeticion"
+    "last_opened_file_path": "C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/practicar"
   }
 }]]></component>
   <component name="RunManager">
