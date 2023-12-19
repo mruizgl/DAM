@@ -1,5 +1,5 @@
 <archetype>
-  <id>expresiones-regulares</id>
+  <id>ejercicios-compuestos</id>
   <sources>
     <source>src/main/java/App.java</source>
   </sources>
