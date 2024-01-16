@@ -33,7 +33,7 @@ En este Proyecto podemos definir dos actores:
 | _Apellido2_  | _Segundo apellido del paciente_  | _String_ |
 | _Edad_  | _Edad del paciente_  | _int_ |
 | _Información médica_  | _Información médica del paciente (antecedentes, alergias...)_  | _String_ |
-| | |
+
 
 -------------
 
@@ -54,7 +54,7 @@ En este Proyecto podemos definir dos actores:
 | _Apellido2_  | _Segundo apellido del paciente_                               | _String_ |
 | _Edad_  | _Edad del paciente_                                           | _int_ |
 | _Información médica_  | _Información médica del paciente (antecedentes, alergias...)_ | _String_ |
-| |                                                               |
+
 
 ------------------
 
