@@ -9,7 +9,7 @@
         <sala>103</sala>
         <plazas>15</plazas>
     </baile>
-        <baile>
+    <baile>
         <nombre>HipHop</nombre>
         <precio moneda="Euro" cuota="Trimestral">75</precio>
         <comienzo>01/02/2024</comienzo>
