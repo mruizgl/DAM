@@ -24,4 +24,9 @@ public class RegularesAbstrac {
     public void setAltura(float altura) {
         this.altura = altura;
     }
+
+
+    public float calcularArea() {
+        return base*altura;
+    }
 }
