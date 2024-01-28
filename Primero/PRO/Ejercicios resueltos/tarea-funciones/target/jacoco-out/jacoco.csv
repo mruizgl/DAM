@@ -1,0 +1,7 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+tarea-funciones,ies.puerto,Ejercicio6,11,11,0,0,4,2,1,2,1,2
+tarea-funciones,ies.puerto,Ejercicio5,16,30,6,8,3,8,4,5,0,2
+tarea-funciones,ies.puerto,Ejercicio4,0,20,0,2,0,7,0,4,0,3
+tarea-funciones,ies.puerto,Ejercicio3,0,15,0,0,0,5,0,3,0,3
+tarea-funciones,ies.puerto,Ejercicio2,0,14,0,0,0,4,0,2,0,2
+tarea-funciones,ies.puerto,Ejercicio1,0,9,0,0,0,2,0,2,0,2

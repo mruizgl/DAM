@@ -1,0 +1,47 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/trabajo-array-avanzado/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/trabajo-array-avanzado/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'SUPUESTO ALUMNOS CLASE 1.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/trabajo-array-avanzado/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'SUPUESTO ALUMNOS CLASE 1.0 API'
+ies.puerto
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\src\main\java = 1700006528195
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\allclasses-index.html = 1700136160601
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\allclasses.html = 1700136160613
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\allpackages-index.html = 1700136160605
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\constant-values.html = 1700136160541
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\deprecated-list.html = 1700136160612
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\element-list = 1700136160524
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\help-doc.html = 1700136160619
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\index-all.html = 1700136160597
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\index.html = 1700136160616
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\member-search-index.js = 1700136160595
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\member-search-index.zip = 1700136160595
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\overview-tree.html = 1700136160568
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\package-search-index.js = 1700136160581
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\package-search-index.zip = 1700136160592
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\script.js = 1700136160643
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\search.js = 1700136160657
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\stylesheet.css = 1700136160631
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\type-search-index.js = 1700136160593
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\trabajo-array-avanzado\target\site\apidocs\type-search-index.zip = 1700136160594

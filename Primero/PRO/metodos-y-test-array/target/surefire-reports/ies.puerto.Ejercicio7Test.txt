@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ies.puerto.Ejercicio7Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ies.puerto.Ejercicio7Test
+ordenarArrayAscendenteTest  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: No se ha obtenido el resultado esperado.  ==> expected: [I@6b3871d6<[11, 12, 22, 25, 64]> but was: [I@37095ded<[11, 12, 22, 25, 64]>
+	at ies.puerto.Ejercicio7Test.ordenarArrayAscendenteTest(Ejercicio7Test.java:24)
+

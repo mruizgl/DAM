@@ -1,0 +1,47 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'E:/PRO/tarea-funciones/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'E:/PRO/tarea-funciones/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'tarea-funciones 1.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'E:/PRO/tarea-funciones/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'tarea-funciones 1.0 API'
+ies.puerto
+E:\PRO\tarea-funciones\src\main\java = 1697810051000
+E:\PRO\tarea-funciones\target\site\apidocs\element-list = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\constant-values.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\overview-tree.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\package-search-index.js = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\package-search-index.zip = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\type-search-index.js = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\type-search-index.zip = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\member-search-index.js = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\member-search-index.zip = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\index-all.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\allclasses-index.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\allpackages-index.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\deprecated-list.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\allclasses.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\index.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\help-doc.html = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\stylesheet.css = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\script.js = 1698085806000
+E:\PRO\tarea-funciones\target\site\apidocs\search.js = 1698085806000

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Ejercicio5.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">examen</a> &gt; <a href="index.source.html" class="el_package">ies.puerto</a> &gt; <span class="el_source">Ejercicio5.java</span></div><h1>Ejercicio5.java</h1><pre class="source lang-java linenums">package ies.puerto;
+
+<span class="nc" id="L3">public class Ejercicio5 {</span>
+    /**
+     * Método main para ejecutar y probar su funcionalidad.
+     * @param args null
+     */
+
+    public static void main(String[] args) {
+<span class="nc" id="L10">        mesIfSele(4);</span>
+<span class="nc" id="L11">    }</span>
+
+    /**
+     * Funcion que muestra el mes en función del número que le indiques
+     * @param numero del mes
+     * @return muestra el mes que corresponde a la posicion del numero introducido en el parámetro de entrada
+     */
+    public static String mesIfSele(int numero) {
+
+<span class="nc bnc" id="L20" title="All 2 branches missed.">        if (numero == 1) {</span>
+<span class="nc" id="L21">            System.out.println(&quot;El mes es enero&quot;);</span>
+        }
+<span class="nc bnc" id="L23" title="All 2 branches missed.">        if (numero == 2) {</span>
+<span class="nc" id="L24">            System.out.println(&quot;El mes es febrero&quot;);</span>
+        }
+<span class="nc bnc" id="L26" title="All 2 branches missed.">        if (numero == 3) {</span>
+<span class="nc" id="L27">            System.out.println(&quot;El mes es marzo&quot;);</span>
+        }
+<span class="nc bnc" id="L29" title="All 2 branches missed.">        if (numero == 4) {</span>
+<span class="nc" id="L30">            System.out.println(&quot;El mes es abril&quot;);</span>
+        }
+<span class="nc bnc" id="L32" title="All 2 branches missed.">        if (numero == 5) {</span>
+<span class="nc" id="L33">            System.out.println(&quot;El mes es mayo&quot;);</span>
+        }
+<span class="nc bnc" id="L35" title="All 2 branches missed.">        if (numero == 6) {</span>
+<span class="nc" id="L36">            System.out.println(&quot;El mes es junio&quot;);</span>
+        }
+<span class="nc bnc" id="L38" title="All 2 branches missed.">        if (numero == 7) {</span>
+<span class="nc" id="L39">            System.out.println(&quot;El mes es julio&quot;);</span>
+        }
+<span class="nc bnc" id="L41" title="All 2 branches missed.">        if (numero == 8) {</span>
+<span class="nc" id="L42">            System.out.println(&quot;El mes es agosto&quot;);</span>
+        }
+<span class="nc bnc" id="L44" title="All 2 branches missed.">        if (numero == 9) {</span>
+<span class="nc" id="L45">            System.out.println(&quot;EL mes es septiembre&quot;);</span>
+        }
+<span class="nc bnc" id="L47" title="All 2 branches missed.">        if (numero == 10) {</span>
+<span class="nc" id="L48">            System.out.println(&quot;EL mes es octubre&quot;);</span>
+        }
+<span class="nc bnc" id="L50" title="All 2 branches missed.">        if (numero == 11) {</span>
+<span class="nc" id="L51">            System.out.println(&quot;El mes es noviembre&quot;);</span>
+        }
+<span class="nc bnc" id="L53" title="All 2 branches missed.">        if (numero == 12) {</span>
+<span class="nc" id="L54">            System.out.println(&quot;El mes es noviembre&quot;);</span>
+        }
+
+<span class="nc" id="L57">        return &quot;El mes es &quot; + numero;</span>
+    }
+
+    /**
+     * Funcion para indicar numero de caso y mostrar el numero de mes.
+     * @param numero el mes a mostrar
+     */
+    public static void mesSwitch(int numero) {
+
+<span class="nc bnc" id="L66" title="All 13 branches missed.">        switch (numero) {</span>
+            case 1:
+<span class="nc" id="L68">                System.out.println(&quot;El mes es enero&quot;);</span>
+
+            case 2:
+<span class="nc" id="L71">                System.out.println(&quot;El mes es febrero&quot;);</span>
+
+            case 3:
+<span class="nc" id="L74">                System.out.println(&quot;El mes es marzo&quot;);</span>
+
+            case 4:
+<span class="nc" id="L77">                System.out.println(&quot;El mes es abril&quot;);</span>
+
+            case 5:
+<span class="nc" id="L80">                System.out.println(&quot;El mes es mayo&quot;);</span>
+
+            case 6:
+<span class="nc" id="L83">                System.out.println(&quot;El mes es junio&quot;);</span>
+
+            case 7:
+<span class="nc" id="L86">                System.out.println(&quot;El mes es julio&quot;);</span>
+
+            case 8:
+<span class="nc" id="L89">                System.out.println(&quot;El mes es agosto&quot;);</span>
+
+            case 9:
+<span class="nc" id="L92">                System.out.println(&quot;EL mes es septiembre&quot;);</span>
+
+            case 10:
+<span class="nc" id="L95">                System.out.println(&quot;EL mes es octubre&quot;);</span>
+
+            case 11:
+<span class="nc" id="L98">                System.out.println(&quot;El mes es noviembre&quot;);</span>
+
+            case 12:
+<span class="nc" id="L101">                System.out.println(&quot;El mes es noviembre&quot;);</span>
+
+        }
+
+<span class="nc" id="L105">    }</span>
+
+
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

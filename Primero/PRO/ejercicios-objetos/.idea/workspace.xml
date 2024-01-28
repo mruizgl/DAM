@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b01a6d2a-35d4-4845-bfe1-b48ce047b6eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/CuentaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/Estudiante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ies/puerto/CirculoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ies/puerto/EstudianteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ies/puerto/Circulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/Circulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ies/puerto/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/Persona.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2XuhmVw5ZoS9XmGABS6L95EA8mr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Melissa Ruiz/Documents/tarea-simulacro-examen",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.EstudianteTest">
+    <configuration name="CirculoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.CirculoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CirculoTest.calcularCircunferenciaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.CirculoTest" />
+      <option name="METHOD_NAME" value="calcularCircunferenciaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstudianteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.EstudianteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstudianteTest.imprimirInformacionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.EstudianteTest" />
+      <option name="METHOD_NAME" value="imprimirInformacionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibroTest.imprimirInformacionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="metodos-y-test-array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.LibroTest" />
+      <option name="METHOD_NAME" value="imprimirInformacionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ejercicios-objetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ejercicios-objetos" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EstudianteTest" />
+        <item itemvalue="JUnit.EstudianteTest.imprimirInformacionTest" />
+        <item itemvalue="JUnit.LibroTest.imprimirInformacionTest" />
+        <item itemvalue="JUnit.CirculoTest" />
+        <item itemvalue="JUnit.CirculoTest.calcularCircunferenciaTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b01a6d2a-35d4-4845-bfe1-b48ce047b6eb" name="Changes" comment="" />
+      <created>1699485032875</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699485032875</updated>
+    </task>
+    <servers />
+  </component>
+</project>

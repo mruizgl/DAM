@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e60cd685-cd26-4857-a179-505b4e048a7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/java/ies/puerto/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/java/ies/puerto/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/java/ies/puerto/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/java/ies/puerto/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/java/ies/puerto/Ejercicio5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../expresiones-regulares/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/Ejercicio3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/Ejercicio4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ies/puerto/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ies/puerto/Ejercicio1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ies/puerto/Ejercicio2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ies/puerto/Ejercicio4Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ies/puerto/EventoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trabajo-metodos-test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../trabajo-metodos-test/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../trabajo-metodos-test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../trabajo-metodos-test/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2Wpys64nwIJVshDhNxgHcF5zO7Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/proyecto-test/trabajo-metodos-test"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ies.puerto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Ejercicio4Test.testBinario">
+    <configuration name="Ejercicio4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.Ejercicio4" />
+      <module name="examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Evento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.Evento" />
+      <module name="examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ejercicio4Test.testBinario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.Ejercicio4Test" />
+      <option name="METHOD_NAME" value="testBinario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.EventoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventoTest.testInformacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ies.puerto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ies.puerto" />
+      <option name="MAIN_CLASS_NAME" value="ies.puerto.EventoTest" />
+      <option name="METHOD_NAME" value="testInformacion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="examen-1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="examen-1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Ejercicio4Test.testBinario" />
+        <item itemvalue="Application.Ejercicio4" />
+        <item itemvalue="JUnit.EventoTest.testInformacion" />
+        <item itemvalue="Application.Evento" />
+        <item itemvalue="JUnit.EventoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e60cd685-cd26-4857-a179-505b4e048a7a" name="Changes" comment="" />
+      <created>1697444021132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697444021132</updated>
+    </task>
+    <servers />
+  </component>
+</project>
