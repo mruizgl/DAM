@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: ies.puerto.Ejercicio6Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in ies.puerto.Ejercicio6Test
+matrizTranspuestaTest  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: No se obtuvo el resultado esperado.  ==> expected: [[I@53093491<[[1, 4, 7], [2, 5, 8], [3, 6, 9]]> but was: [[I@21719a0<[[1, 4, 7], [2, 5, 8], [3, 6, 9]]>
+	at ies.puerto.Ejercicio6Test.matrizTranspuestaTest(Ejercicio6Test.java:36)
+

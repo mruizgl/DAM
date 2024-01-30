@@ -1,0 +1,48 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/dam/Escritorio/examen-primera-evaluacion/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'examen 1.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/dam/Escritorio/examen-primera-evaluacion/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'examen 1.0 API'
+ies.puerto
+/home/dam/Escritorio/examen-primera-evaluacion/src/main/java = 1700235719439
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/allpackages-index.html = 1700246099688
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/search.js = 1700246099704
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/allclasses.html = 1700246099696
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/jquery-ui.overrides.css = 1700246099708
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/element-list = 1700246099628
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/type-search-index.js = 1700246099680
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/stylesheet.css = 1700246099700
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/index.html = 1700246099696
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/package-search-index.js = 1700246099680
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/package-search-index.zip = 1700246099680
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/member-search-index.js = 1700246099680
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/type-search-index.zip = 1700246099680
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/member-search-index.zip = 1700246099680
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/script.js = 1700246099704
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/allclasses-index.html = 1700246099688
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/deprecated-list.html = 1700246099692
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/help-doc.html = 1700246099700
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/index-all.html = 1700246099684
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/constant-values.html = 1700246099640
+/home/dam/Escritorio/examen-primera-evaluacion/target/site/apidocs/overview-tree.html = 1700246099660

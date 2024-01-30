@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: Ejercicio9Test
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.047 s <<< FAILURE! - in Ejercicio9Test
+testCombinarArraysOrdenados  Time elapsed: 0.041 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: No se ha obtenido el resultado esperado. ==> expected: [I@54534abf<[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]> but was: [I@51745f40<[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]>
+	at Ejercicio9Test.testCombinarArraysOrdenados(Ejercicio9Test.java:23)
+

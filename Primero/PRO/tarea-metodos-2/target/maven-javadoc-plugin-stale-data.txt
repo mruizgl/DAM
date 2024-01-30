@@ -1,0 +1,47 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/tarea-metodos-2/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/tarea-metodos-2/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Archetype - tarea-metodos-2 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/Melissa Ruiz/Documents/GitHub/DAM/Primero/PRO/tarea-metodos-2/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Archetype - tarea-metodos-2 1.0-SNAPSHOT API'
+ies.puerto
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\src\main\java = 1698174058642
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\allclasses-index.html = 1698233057449
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\allclasses.html = 1698233057455
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\allpackages-index.html = 1698233057450
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\constant-values.html = 1698233057404
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\deprecated-list.html = 1698233057454
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\element-list = 1698233057390
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\help-doc.html = 1698233057462
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\index-all.html = 1698233057445
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\index.html = 1698233057458
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\member-search-index.js = 1698233057443
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\member-search-index.zip = 1698233057444
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\overview-tree.html = 1698233057424
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\package-search-index.js = 1698233057433
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\package-search-index.zip = 1698233057441
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\script.js = 1698233057465
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\search.js = 1698233057466
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\stylesheet.css = 1698233057464
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\type-search-index.js = 1698233057442
+C:\Users\Melissa Ruiz\Documents\GitHub\DAM\Primero\PRO\tarea-metodos-2\target\site\apidocs\type-search-index.zip = 1698233057442

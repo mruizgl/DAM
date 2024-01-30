@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Ejercicio4.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">tarea-funciones</a> &gt; <a href="index.source.html" class="el_package">ies.puerto</a> &gt; <span class="el_source">Ejercicio4.java</span></div><h1>Ejercicio4.java</h1><pre class="source lang-java linenums">package ies.puerto;
+
+/**
+ * Clase que tiene como objetivo calcular el maximo de dos numeros o tres numeros
+ * @author Melissa Ruiz
+ */
+<span class="fc" id="L7">public class Ejercicio4 {</span>
+    /**
+     * Funcion que calcula el maximo de dos numeros
+     * @param numero1 El primer numero para el calculo
+     * @param numero2 El segundo numero para el calculo
+     * @return Devuelve resultado
+     */
+    public static int calcularMaximo(int numero1, int numero2) {
+<span class="fc" id="L15">        int resultado = numero1;</span>
+<span class="fc bfc" id="L16" title="All 2 branches covered.">            if (numero2 &gt; numero1) {</span>
+<span class="fc" id="L17">                resultado = numero2;</span>
+        }
+<span class="fc" id="L19">            return resultado;</span>
+    }
+
+
+    /**
+     * Funcion que calcula el maximo de tres numeros
+     * @param numero1 El primer numero para el calculo
+     * @param numero2 El segundo numero para el calculo
+     * @param numero3 El tercer numero para el calculo
+     * @return Devuelve resultado
+     */
+    public static int calcularMaximo(int numero1, int numero2, int numero3) {
+<span class="fc" id="L31">        int maximoDeDos = calcularMaximo(numero1, numero2);</span>
+<span class="fc" id="L32">        return calcularMaximo(maximoDeDos, numero3);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

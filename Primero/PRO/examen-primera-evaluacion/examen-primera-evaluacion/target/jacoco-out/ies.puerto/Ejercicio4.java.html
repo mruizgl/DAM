@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Ejercicio4.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">examen</a> &gt; <a href="index.source.html" class="el_package">ies.puerto</a> &gt; <span class="el_source">Ejercicio4.java</span></div><h1>Ejercicio4.java</h1><pre class="source lang-java linenums">package ies.puerto;
+
+
+/**
+ * Clase que tiene como objetivo hacer un juego de las 5 puertas. Asumiendo que todas están cerradas jugaremos con
+ * ciertos métodos para abrirlas, cerrarlas, cambiar su estado, mostrarlas en pantalla...
+ */
+<span class="nc" id="L8">public class Ejercicio4 {</span>
+<span class="nc" id="L9">static int [] puertas = {0, 0, 0, 0, 0};</span>
+
+    /**
+     * Método main donde podemos llamar a cada función para ir jugando con ello.
+     * @param args
+     */
+    public static void main(String[] args) {
+        //abrirPuerta(2);
+<span class="nc" id="L17">        cerrarPuerta(2);</span>
+        //cambiarEstadoPuerta(2);
+        //mostrarEstadoPuertas();
+<span class="nc" id="L20">    }</span>
+
+    /**
+     * Funcion para abrir puerta en función de la entrada que le indiquemos
+     * @param numeroPuerta puerta que abriremos.
+     */
+    public static void abrirPuerta (int numeroPuerta) {
+<span class="nc" id="L27">        puertas [numeroPuerta] = 1;</span>
+<span class="nc bnc" id="L28" title="All 2 branches missed.">        if (puertas[numeroPuerta] == 1) {</span>
+<span class="nc" id="L29">                System.out.println(&quot;La puerta numero &quot; + numeroPuerta + &quot; se ha abierto con éxito.&quot;);</span>
+        }
+<span class="nc" id="L31">    }</span>
+
+
+    /**
+     * Funcion para cerrar puertas en funcion de la entrada que le indiquemos
+     * @param numeroPuerta puerta que cerraremos.
+     */
+    public static void cerrarPuerta (int numeroPuerta) {
+
+<span class="nc bnc" id="L40" title="All 2 branches missed.">        if (puertas[numeroPuerta] == 0) {</span>
+<span class="nc" id="L41">            System.out.println(&quot;La puerta numero &quot; + numeroPuerta + &quot; ya estaba cerrada, asi que no ha habido cambios&quot;);</span>
+        } else {
+<span class="nc" id="L43">            puertas [numeroPuerta] = 0;</span>
+<span class="nc" id="L44">            System.out.println(&quot;La puerta numero &quot; + numeroPuerta + &quot; se ha cerrado con éxito.&quot;);</span>
+        }
+<span class="nc" id="L46">    }</span>
+
+    /**
+     * Funcion que cambia el estado de la puerta que le indiquemos
+     * @param numeroPuerta que cambiaremos de estado
+     */
+    public static void cambiarEstadoPuerta (int numeroPuerta) {
+
+<span class="nc bnc" id="L54" title="All 2 branches missed.">        if (puertas[numeroPuerta] == 0) {</span>
+<span class="nc" id="L55">                puertas[numeroPuerta] = 1;</span>
+<span class="nc" id="L56">                System.out.println(&quot;La puerta estaba cerrada y se ha abierto&quot;);</span>
+<span class="nc bnc" id="L57" title="All 2 branches missed.">        } else if (puertas[numeroPuerta] == 1){</span>
+<span class="nc" id="L58">                puertas[numeroPuerta] = 0;</span>
+<span class="nc" id="L59">                System.out.println(&quot;La puerta estaba abierta y se ha cerrado&quot;);</span>
+        }
+<span class="nc" id="L61">    }</span>
+
+
+    /**
+     * Funcion que muestra el estado de todas las puertas.
+     */
+    public static void mostrarEstadoPuertas () {
+<span class="nc bnc" id="L68" title="All 2 branches missed.">        for (int i = 0; i &lt; 5; i++) {</span>
+<span class="nc bnc" id="L69" title="All 2 branches missed.">            if (puertas[i] == 0); {</span>
+<span class="nc" id="L70">                System.out.println(&quot;La puerta numero &quot; + i + &quot; está cerrada&quot;);</span>
+<span class="nc bnc" id="L71" title="All 2 branches missed.">            }if (puertas[i] == 1) {</span>
+<span class="nc" id="L72">                System.out.println(&quot;La puerta numero &quot; + i + &quot; está abierta&quot;);</span>
+            }
+        }
+<span class="nc" id="L75">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Ejercicio2.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">examen</a> &gt; <a href="index.source.html" class="el_package">ies.puerto</a> &gt; <span class="el_source">Ejercicio2.java</span></div><h1>Ejercicio2.java</h1><pre class="source lang-java linenums">package ies.puerto;
+
+/**
+ * Clase que representa un estudiante con los siguientes atributos: edad, peso, altura y nombre.
+ */
+public class Ejercicio2 {
+
+    private int edad;
+    private double peso;
+    private double altura;
+    private String nombre;
+
+/*
+Getter y setters
+ */
+    public String getNombre() {
+<span class="nc" id="L17">        return nombre;</span>
+    }
+
+    public void setNombre(String nombre) {
+<span class="nc" id="L21">        this.nombre = nombre;</span>
+<span class="nc" id="L22">    }</span>
+
+    public int getEdad() {
+<span class="nc" id="L25">        return edad;</span>
+    }
+
+    public void setEdad(int edad) {
+<span class="nc" id="L29">        this.edad = edad;</span>
+<span class="nc" id="L30">    }</span>
+
+    public double getPeso() {
+<span class="nc" id="L33">        return peso;</span>
+    }
+
+    public void setPeso(double peso) {
+<span class="nc" id="L37">        this.peso = peso;</span>
+<span class="nc" id="L38">    }</span>
+
+    public double getAltura() {
+<span class="nc" id="L41">        return altura;</span>
+    }
+
+    public void setAltura(double altura) {
+<span class="nc" id="L45">        this.altura = altura;</span>
+<span class="nc" id="L46">    }</span>
+
+    /**
+     * Constructor por defecto
+     */
+<span class="nc" id="L51">    public Ejercicio2 () {}</span>
+
+    /**
+     * Constructor con el parámetro edad
+     * @param edad del estudiante
+     */
+<span class="nc" id="L57">    public Ejercicio2(int edad) {</span>
+<span class="nc" id="L58">        this.edad = edad;</span>
+<span class="nc" id="L59">    }</span>
+
+    /**
+     * Constructor con el parámetro de peso del estudiante.
+     * @param peso del estudiante.
+     */
+<span class="nc" id="L65">    public Ejercicio2(double peso) {</span>
+<span class="nc" id="L66">        this.peso = peso;</span>
+<span class="nc" id="L67">    }</span>
+
+    /**
+     * Constructor con el parámetro nombre.
+     * @param nombre del estudiante
+     */
+<span class="nc" id="L73">    public Ejercicio2(String nombre) {</span>
+<span class="nc" id="L74">        this.nombre = nombre;</span>
+<span class="nc" id="L75">    }</span>
+
+    /**
+     * COnstructor con todos los parámetros
+     * @param edad del estudiante
+     * @param peso del estudiante
+     * @param altura del estudiante
+     * @param nombre del estudiante
+     */
+<span class="nc" id="L84">    public Ejercicio2(int edad, double peso, double altura, String nombre) {</span>
+<span class="nc" id="L85">        this.edad = edad;</span>
+<span class="nc" id="L86">        this.peso = peso;</span>
+<span class="nc" id="L87">        this.altura = altura;</span>
+<span class="nc" id="L88">        this.nombre = nombre;</span>
+<span class="nc" id="L89">    }</span>
+
+    /**
+     * Constructor con los parámetros de edad y peso
+     * @param edad del estudiante
+     * @param peso peso del estudiante
+     */
+<span class="nc" id="L96">    public Ejercicio2(int edad, double peso) {</span>
+<span class="nc" id="L97">        this.edad = edad;</span>
+<span class="nc" id="L98">        this.peso = peso;</span>
+<span class="nc" id="L99">    }</span>
+
+    /**
+     * Constructor con los parámetros de edad, peso y altura
+     * @param edad del estudiante
+     * @param peso del estudiante
+     * @param altura del estudiante
+     */
+<span class="nc" id="L107">    public Ejercicio2(int edad, double peso, double altura) {</span>
+<span class="nc" id="L108">        this.edad = edad;</span>
+<span class="nc" id="L109">        this.peso = peso;</span>
+<span class="nc" id="L110">        this.altura = altura;</span>
+<span class="nc" id="L111">    }</span>
+
+    /**
+     * Constructor con tres parametros
+     * @param peso del estudiante
+     * @param altura del estudiante
+     * @param nombre del estudiante
+     */
+<span class="nc" id="L119">    public Ejercicio2(double peso, double altura, String nombre) {</span>
+<span class="nc" id="L120">        this.peso = peso;</span>
+<span class="nc" id="L121">        this.altura = altura;</span>
+<span class="nc" id="L122">        this.nombre = nombre;</span>
+<span class="nc" id="L123">    }</span>
+
+    /**
+     * Constructor con los parametros de edad y nombre
+     * @param edad del estudiante
+     * @param nombre del estudiante
+     */
+<span class="nc" id="L130">    public Ejercicio2(int edad, String nombre) {</span>
+<span class="nc" id="L131">        this.edad = edad;</span>
+<span class="nc" id="L132">        this.nombre = nombre;</span>
+<span class="nc" id="L133">    }</span>
+
+    /**
+     * Constructor con los parametros de peso y altura.
+     * @param peso del estudiante
+     * @param altura del estudiante
+     */
+<span class="nc" id="L140">    public Ejercicio2(double peso, double altura) {</span>
+<span class="nc" id="L141">        this.peso = peso;</span>
+<span class="nc" id="L142">        this.altura = altura;</span>
+<span class="nc" id="L143">    }</span>
+
+    /**
+     * Constructor con los parametros de altura y nombre
+     * @param altura del estudiante
+     * @param nombre del estudiante
+     */
+<span class="nc" id="L150">    public Ejercicio2(double altura, String nombre) {</span>
+<span class="nc" id="L151">        this.altura = altura;</span>
+<span class="nc" id="L152">        this.nombre = nombre;</span>
+<span class="nc" id="L153">    }</span>
+
+    /**
+     * Constructor con los parametros de edad, peso y nombre
+     * @param edad del estudiante
+     * @param peso del estudiante
+     * @param nombre del estudiante
+     */
+<span class="nc" id="L161">    public Ejercicio2(int edad, double peso, String nombre) {</span>
+<span class="nc" id="L162">        this.edad = edad;</span>
+<span class="nc" id="L163">        this.peso = peso;</span>
+<span class="nc" id="L164">        this.nombre = nombre;</span>
+<span class="nc" id="L165">    }</span>
+
+    /**
+     * Funcion para calcular el IMC
+     * @param peso del estudiante
+     * @param altura del estudiante
+     * @return devuelve el resultado.
+     */
+    public double calcularIMC (double peso, double altura) {
+<span class="nc" id="L174">        peso = this.peso;</span>
+<span class="nc" id="L175">        altura = this.altura;</span>
+<span class="nc" id="L176">        double imc = peso / (altura*altura);</span>
+
+<span class="nc" id="L178">        return imc;</span>
+
+    }
+
+    /**
+     * Funcion para mostrar informacion del estudiante
+     * @return devuelve resultado
+     */
+    public String mostrarInformacion () {
+
+<span class="nc" id="L188">        return &quot;El nombre del estudiante es &quot; + this.nombre + &quot;, su altura es +&quot; + this.altura + &quot;, su peso es &quot; + this.peso +</span>
+<span class="nc" id="L189">                &quot;, su edad es &quot; + this.edad + &quot;y su IMC es: &quot; + calcularIMC(this.peso, this.altura);</span>
+    }
+
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
