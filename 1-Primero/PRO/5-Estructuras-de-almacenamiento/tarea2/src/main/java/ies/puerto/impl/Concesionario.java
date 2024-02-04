@@ -1,11 +1,15 @@
 package ies.puerto.impl;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 
 public class Concesionario {
     private HashSet<Coche> coches;
     private ArrayList<Motocicleta> motocicletas;
+    private Map<String, Camion> camiones = new HashMap<>();
+    private Map<String, Bicicleta> bicicletas = new HashMap<>();
 
     public boolean addCoche(Coche coche) {
         if (!existeCoche((coche.getMatricula()))) {
@@ -14,7 +18,7 @@ public class Concesionario {
         return true;
     }
 
-    boolean removeCoche(Coche coche) {
+    public boolean removeCoche(Coche coche) {
         if (existeCoche((coche.getMatricula()))) {
             coches.remove(coche);
         }
@@ -96,5 +100,71 @@ public class Concesionario {
 
         return (velocidadMediaMotos + velocidadMediaMotos) / (coches.size() + motocicletas.size());
     }
+
+    public boolean addCamion(Camion camion) {
+        if (!camiones.containsKey(camion.getMatricula())) {
+            camiones.put(camion.getMatricula(), camion);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean removeCamion(Camion camion) {
+        if (camiones.containsKey(camion.getMatricula())) {
+            camiones.remove(camion.getMatricula());
+            return true;
+        }
+        return false;
+    }
+
+    public Camion obtenerCamion(String matricula) {
+        return camiones.get(matricula);
+    }
+
+    public float velocidadMediaCamiones() {
+        if (camiones.isEmpty()) {
+            return 0;
+        }
+        float sumaVelocidades = 0;
+        for (Camion camion : camiones.values()) {
+            sumaVelocidades += camion.getVelocidad();
+        }
+
+        return sumaVelocidades / camiones.size();
+    }
+
+    public boolean addBicicleta(Bicicleta bicicleta) {
+        if (!bicicletas.containsKey(bicicleta.getMatricula())) {
+            bicicletas.put(bicicleta.getMatricula(), bicicleta);
+            return true;
+        }
+        return false;
+    }
+
+    public boolean removeBicicleta(Bicicleta bicicleta) {
+        if (bicicletas.containsKey(bicicleta.getMatricula())) {
+            bicicletas.remove(bicicleta.getMatricula());
+            return true;
+        }
+        return false;
+    }
+
+    public Bicicleta obtenerBicicleta(String matricula) {
+        return bicicletas.get(matricula);
+    }
+
+    public float velocidadMediaBicicletas() {
+        if (bicicletas.isEmpty()) {
+            return 0;
+        }
+
+        float sumaVelocidades = 0;
+        for (Bicicleta bicicleta : bicicletas.values()) {
+            sumaVelocidades += bicicleta.getVelocidad();
+        }
+
+        return sumaVelocidades / bicicletas.size();
+    }
+
 
 }
