@@ -8,9 +8,7 @@ public abstract class Vehiculo {
     private String matricula;
     private int velocidad;
 
-    public int velocidadMaxima() {
-        return 0;
-    }
+    public abstract int velocidadMaxima();
 
 
     public Vehiculo() {
