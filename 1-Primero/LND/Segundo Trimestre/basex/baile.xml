@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bailes>
+    <baile>
+        <nombre>Regueton</nombre>
+        <precio moneda="Euro" cuota="Trimestral">75</precio>
+        <comienzo>01/02/2024</comienzo>
+        <fin>20/02/2024</fin>
+        <profesor>Juan Luis</profesor>
+        <sala>103</sala>
+        <plazas>15</plazas>
+    </baile>
+    <baile>
+        <nombre>HipHop</nombre>
+        <precio moneda="Euro" cuota="Trimestral">30</precio>
+        <comienzo>01/02/2024</comienzo>
+        <fin>20/02/2024</fin>
+        <profesor>Juan Luis</profesor>
+        <sala>109</sala>
+        <plazas>15</plazas>
+    </baile>
+</bailes>

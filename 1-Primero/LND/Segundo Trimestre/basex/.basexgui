@@ -1,0 +1,105 @@
+# Paths
+INPUTPATH = /home/dam/DAM/Primero/LND/Segundo Trimestre
+DATAPATH = /home/dam/basex/
+WORKPATH = /home/dam/basex/
+PROJECTPATH = 
+
+# Layout
+FONT = SansSerif
+MONOFONT = Monospaced
+FONTTYPE = 0
+FONTSIZE = 15
+ONLYMONO = false
+COLORRED = 15
+COLORGREEN = 11
+COLORBLUE = 6
+
+# Windows
+UPDATEVERSION = 9.0.1
+VIEWS = V H editor folder map plot - H text info table tree explore - - 
+GUISIZE0 = 1004
+GUISIZE1 = 748
+GUILOC0 = 10
+GUILOC1 = 10
+MAXSTATE = true
+SHOWBUTTONS = true
+SHOWINPUT = true
+SHOWSTATUS = true
+SHOWINFO = true
+SHOWMAP = true
+SHOWTABLE = false
+SHOWTEXT = true
+SHOWFOLDER = false
+SHOWEXPLORE = false
+SHOWPLOT = false
+SHOWEDITOR = true
+SHOWTREE = true
+SHOWPROJECT = true
+PREFTAB = 0
+LOOKANDFEEL = 
+SHOWNAME = true
+MOUSEFOCUS = false
+ASCSORT = true
+CASESORT = true
+MERGEDUPL = false
+COLUMN = 1
+UNICODE = true
+SHOWMARGIN = true
+MARGIN = 80
+TABSPACES = true
+INDENT = 2
+SHOWINVISIBLE = true
+SHOWNL = false
+SHOWLINES = true
+MARKLINE = true
+SAVERUN = false
+PARSEPROJ = true
+AUTO = true
+FILES = *.xml, *.xq*
+HIDDENFILES = true
+SEARCHMODE = 0
+FILTERRT = false
+EXECRT = false
+DBNAME = SegundoTrimestre
+LASTINSERT = 1
+
+# Visualizations
+MAPATTS = false
+MAPOFFSETS = 3
+MAPALGO = 0
+MAPWEIGHT = 0
+TREESLIM = true
+TREEATTS = false
+PLOTDOTS = 0
+PLOTXLOG = false
+PLOTYLOG = false
+MAXTEXT = 8388608
+MAXRESULTS = 500000
+
+# Search
+SEARCHED = 0
+REPLACED = 0
+
+# History
+COMMANDS = 0
+SEARCH = 0
+XQUERY = 0
+
+# Files
+EDITOR = 4
+EDITOR1 = /home/dam/basex/asd.xq
+EDITOR2 = /home/dam/basex/baile.xml
+EDITOR3 = /home/dam/basex/2.xq
+EDITOR4 = /home/dam/basex/3.xq
+INPUTS = 1
+INPUTS1 = /home/dam/DAM/Primero/LND/Segundo Trimestre
+OPEN = 4
+OPEN1 = /home/dam/basex/3.xq
+OPEN2 = /home/dam/basex/2.xq
+OPEN3 = /home/dam/basex/baile.xml
+OPEN4 = /home/dam/basex/asd.xq
+PROJECTS = 0
+PROJFILES = 0
+PROJCONTS = 0
+
+# Local Options
