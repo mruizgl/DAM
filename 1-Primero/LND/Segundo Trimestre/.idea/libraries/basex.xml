@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="basex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/basex/basex.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
