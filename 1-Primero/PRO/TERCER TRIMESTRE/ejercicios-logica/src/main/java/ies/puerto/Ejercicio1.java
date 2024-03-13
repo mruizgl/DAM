@@ -15,11 +15,13 @@ public class Ejercicio1 {
 
             if (numero % 3 == 0) {
                 mensaje += "fizz";
+                System.out.println(mensaje);
             }
             if (numero % 5 == 0) {
                 mensaje += "buzz";
+                System.out.println(mensaje);
             }
-            System.out.println(i+mensaje);
+            System.out.println(i);
         }
     }
 }
