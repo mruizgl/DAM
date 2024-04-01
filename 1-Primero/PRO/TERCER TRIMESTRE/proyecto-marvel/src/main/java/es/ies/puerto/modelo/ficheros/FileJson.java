@@ -27,7 +27,6 @@ public class FileJson implements IOperacionesFichero {
             throw new RuntimeException(e);
         }
 
-        return heroes;
     }
 
     @Override

@@ -24,7 +24,6 @@ public class XmlTest {
     @Test
     public void xmlReadTest () {
         IOperacionesFichero fileXml = new FileXml();
-        Heroes heroes = fileXml.readFromFile("src/test/resources/heroesTest.xml");
         Assertions.assertEquals(heroes.getPersonajes().size(), 2, "El resultado no es el esperado");
     }
 }

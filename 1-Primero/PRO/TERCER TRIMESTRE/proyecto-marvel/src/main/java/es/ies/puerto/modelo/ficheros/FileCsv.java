@@ -8,7 +8,7 @@ import java.io.*;
 
 public class FileCsv implements IOperacionesFichero {
     @Override
-    public Heroes readFromFile(String path) {
+    public void readFromFile(String path) {
         Heroes heroes = null;
 
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
