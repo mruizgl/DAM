@@ -1,4 +1,4 @@
-package modelo;
+package es.ies.puerto.modelo;
 
 import java.util.Objects;
 import java.util.Set;
@@ -7,13 +7,13 @@ public class Personaje {
     String nombre;
     String alias;
     String genero;
-    Set<String> poderes;
+    Set<Poder> poderes;
 
     public Personaje(String nombre) {
         this.nombre = nombre;
     }
 
-    public Personaje(String nombre, String alias, String genero, Set<String> poderes) {
+    public Personaje(String nombre, String alias, String genero, Set<Poder> poderes) {
         this.nombre = nombre;
         this.alias = alias;
         this.genero = genero;
@@ -44,11 +44,11 @@ public class Personaje {
         this.genero = genero;
     }
 
-    public Set<String> getPoderes() {
+    public Set<Poder> getPoderes() {
         return poderes;
     }
 
-    public void setPoderes(Set<String> poderes) {
+    public void setPoderes(Set<Poder> poderes) {
         this.poderes = poderes;
     }
 

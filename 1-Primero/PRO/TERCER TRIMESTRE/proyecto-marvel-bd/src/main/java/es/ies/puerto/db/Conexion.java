@@ -1,4 +1,4 @@
-package modelo.db;
+package es.ies.puerto.modelo.db;
 
 import exception.PersonajeException;
 

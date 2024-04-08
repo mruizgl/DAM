@@ -1,13 +1,13 @@
-package modelo;
+package es.ies.puerto.modelo;
 
 import java.util.Objects;
 
 public class Poder {
-    int personaje_id;
+    int personajeId;
     String poder;
 
-    public Poder(int personaje_id, String poder) {
-        this.personaje_id = personaje_id;
+    public Poder(int personajeId, String poder) {
+        this.personajeId = personajeId;
         this.poder = poder;
     }
 
@@ -31,7 +31,7 @@ public class Poder {
     @Override
     public String toString() {
         return "Poder{" +
-                "personaje_id=" + personaje_id +
+                "personaje_id=" + personajeId +
                 ", poder='" + poder + '\'' +
                 '}';
     }
