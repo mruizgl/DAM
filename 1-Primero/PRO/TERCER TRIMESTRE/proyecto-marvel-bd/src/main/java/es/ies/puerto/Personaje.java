@@ -1,23 +1,33 @@
-package es.ies.puerto.modelo;
+package es.ies.puerto;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
 public class Personaje {
-    String nombre;
-    String alias;
-    String genero;
-    Set<Poder> poderes;
+    private int id;
+    private String nombre;
+    private String alias;
+    private String genero;
+    private List<Poder> poderes;
 
     public Personaje(String nombre) {
         this.nombre = nombre;
     }
 
-    public Personaje(String nombre, String alias, String genero, Set<Poder> poderes) {
+    public Personaje(String nombre, String alias, String genero, List<Poder> poderes) {
         this.nombre = nombre;
         this.alias = alias;
         this.genero = genero;
         this.poderes = poderes;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getNombre() {
@@ -44,11 +54,11 @@ public class Personaje {
         this.genero = genero;
     }
 
-    public Set<Poder> getPoderes() {
+    public List<Poder> getPoderes() {
         return poderes;
     }
 
-    public void setPoderes(Set<Poder> poderes) {
+    public void setPoderes(List<Poder> poderes) {
         this.poderes = poderes;
     }
 
@@ -57,18 +67,19 @@ public class Personaje {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Personaje personaje = (Personaje) o;
-        return Objects.equals(nombre, personaje.nombre) && Objects.equals(alias, personaje.alias) && Objects.equals(genero, personaje.genero) && Objects.equals(poderes, personaje.poderes);
+        return id == personaje.id;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(nombre, alias, genero, poderes);
+        return Objects.hash(id);
     }
 
     @Override
     public String toString() {
         return "Personaje{" +
-                "nombre='" + nombre + '\'' +
+                "id=" + id +
+                ", nombre='" + nombre + '\'' +
                 ", alias='" + alias + '\'' +
                 ", genero='" + genero + '\'' +
                 ", poderes=" + poderes +

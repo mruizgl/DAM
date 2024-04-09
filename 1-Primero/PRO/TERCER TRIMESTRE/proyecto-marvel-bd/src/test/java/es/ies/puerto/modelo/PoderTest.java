@@ -1,2 +1,4 @@
-package es.ies.puerto.modelo;public class PoderTest {
+package es.ies.puerto.modelo;
+
+public class PoderTest {
 }

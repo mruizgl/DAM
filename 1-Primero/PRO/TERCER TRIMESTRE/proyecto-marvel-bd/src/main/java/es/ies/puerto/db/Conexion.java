@@ -1,6 +1,6 @@
-package es.ies.puerto.modelo.db;
+package es.ies.puerto.db;
 
-import exception.PersonajeException;
+import es.ies.puerto.exception.PersonajeException;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ public class Conexion {
     private String user;
     private String password;
 
-    public Conexion(String url) throws PersonajeException {
+    public Conexion(String url) {
         super();
         this.url = "jdbc:sqlite:"+url;
     }

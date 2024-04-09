@@ -1,2 +1,4 @@
-package es.ies.puerto.modelo;public class PersonajeTest {
+package es.ies.puerto.modelo;
+
+public class PersonajeTest {
 }
