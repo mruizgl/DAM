@@ -1,5 +1,6 @@
 package es.ies.puerto;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
@@ -9,13 +10,14 @@ public class Personaje {
     private String nombre;
     private String alias;
     private String genero;
-    private List<Poder> poderes;
+    private Set<Poder> poderes;
 
-    public Personaje(String nombre) {
-        this.nombre = nombre;
+    public Personaje(int id) {
+        this.id = id;
     }
 
-    public Personaje(String nombre, String alias, String genero, List<Poder> poderes) {
+    public Personaje(int id, String nombre, String alias, String genero, Set<Poder> poderes) {
+        this.id = id;
         this.nombre = nombre;
         this.alias = alias;
         this.genero = genero;
@@ -54,11 +56,11 @@ public class Personaje {
         this.genero = genero;
     }
 
-    public List<Poder> getPoderes() {
+    public Set<Poder> getPoderes() {
         return poderes;
     }
 
-    public void setPoderes(List<Poder> poderes) {
+    public void setPoderes(Set<Poder> poderes) {
         this.poderes = poderes;
     }
 

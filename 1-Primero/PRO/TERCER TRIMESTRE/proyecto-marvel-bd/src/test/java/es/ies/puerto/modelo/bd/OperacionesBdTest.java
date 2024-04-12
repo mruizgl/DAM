@@ -8,23 +8,20 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class OperacionesBdTest {
     OperacionesBd operacionesBd;
     String urlBd = "src/main/resources/personajes.db";
     String MESSAGE_ERROR = "NO SE HA OBTENIDO EL RESULTADO ESPERADO";
     Personaje personaje;
-    List<Poder> poderes = new ArrayList<>();
+    Set<Poder> poderes = new HashSet<>();
     @BeforeEach
     public void beforeEach() {
         try {
             Poder poder = new Poder("maquina");
             poderes.add(poder);
-            personaje = new Personaje("11","pepe","hombre",poderes);
+            personaje = new Personaje(3, "dkslfm","pepe","hombre",poderes);
             operacionesBd = new OperacionesBd(urlBd);
         }catch (Exception exception) {
             Assertions.fail(exception.getMessage());
@@ -39,6 +36,8 @@ public class OperacionesBdTest {
         } catch (PersonajeException e) {
             Assertions.fail(e.getMessage());
         }
+
+
     }
 
 
