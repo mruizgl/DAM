@@ -14,14 +14,14 @@ public class OperacionesBdTest {
     OperacionesBd operacionesBd;
     String urlBd = "src/main/resources/personajes.db";
     String MESSAGE_ERROR = "NO SE HA OBTENIDO EL RESULTADO ESPERADO";
-    Personaje personaje;
+    Personaje personajePrueba;
     Set<Poder> poderes = new HashSet<>();
     @BeforeEach
     public void beforeEach() {
         try {
             Poder poder = new Poder("maquina");
             poderes.add(poder);
-            personaje = new Personaje(3, "dkslfm","pepe","hombre",poderes);
+            personajePrueba = new Personaje(3, "dkslfm","pepe","hombre",poderes);
             operacionesBd = new OperacionesBd(urlBd);
         }catch (Exception exception) {
             Assertions.fail(exception.getMessage());
@@ -37,6 +37,44 @@ public class OperacionesBdTest {
             Assertions.fail(e.getMessage());
         }
 
+
+    }
+
+    @Test
+    public void insertarPersonajeTest() {
+        try {
+            operacionesBd.insertarPersonaje(personajePrueba);
+            int idPersonaje = personajePrueba.getId();
+            Assertions.assertTrue(idPersonaje == 3);
+            Assertions.assertNotNull(personajePrueba);
+            Assertions.assertEquals(3, personajePrueba.getId(), MESSAGE_ERROR);
+            Assertions.assertEquals("dkslfm", personajePrueba.getNombre(), MESSAGE_ERROR);
+            Assertions.assertEquals("pepe", personajePrueba.getAlias(), MESSAGE_ERROR);
+        } catch (PersonajeException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    @Test
+    public void actualizarPersonajeTest() {
+        personajePrueba.setNombre("NuevoNombreTest");
+        try {
+            operacionesBd.actualizarPersonaje(personajePrueba);
+            Assertions.assertEquals("NuevoNombreTest", personajePrueba.getNombre(), MESSAGE_ERROR);
+        } catch (PersonajeException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Test
+    public void eliminarPersonajeTest() {
+        try {
+            operacionesBd.eliminarPersonaje(personajePrueba);
+            Assertions.assertNotNull(personajePrueba);
+        } catch (PersonajeException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 

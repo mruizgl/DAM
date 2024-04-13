@@ -125,22 +125,77 @@ public class OperacionesBd extends Conexion {
     }
 
     public void insertarPersonaje(Personaje personaje) throws PersonajeException {
-        String query = "INSERT INTO personajes as p (nombre, alias, genero, poderes)" +
-                " VALUES ('"+personaje.getNombre()+"',"
-                + personaje.getAlias()+"," +
-                " '"+personaje.getGenero()+"', '"+personaje.getPoderes()+"')";
+        String query = "INSERT INTO personajes (nombre, alias, genero) " +
+                "VALUES ('"+personaje.getNombre()+"', '"+personaje.getAlias()+"', '"+personaje.getGenero()+"')";
         actualizar(query);
+
+        int idPersonaje = obtenerIdUltimoPersonajeInsertado();
+
+        insertarPoderes(personaje.getPoderes(), idPersonaje);
     }
 
     public void actualizarPersonaje(Personaje personaje) throws PersonajeException{
-        String query = "update personajes set nombre='"+personaje.getNombre()+"', " +
-                "alias='"+personaje.getAlias()+"', genero="+personaje.getAlias()+", poder= '"+personaje.getPoderes()+"' " +
-                "where id='"+personaje.getNombre()+"'";
+        String query = "UPDATE personajes SET nombre='"+personaje.getNombre()+"', " +
+                "alias='"+personaje.getAlias()+"', genero='"+personaje.getGenero()+"' " +
+                "WHERE id='"+personaje.getId()+"'";
         actualizar(query);
+
+        eliminarPoderesPorIdPersonaje(personaje.getId());
+        insertarPoderes(personaje.getPoderes(), personaje.getId());
     }
     public void eliminarPersonaje(Personaje personaje) throws PersonajeException{
-        String query = "delete FROM personajes as p" +
-                " where p.nombre='"+personaje.getNombre()+"'";
+        String query = "DELETE FROM personajes WHERE id="+personaje.getId();
+        actualizar(query);
+
+        eliminarPoderesPorIdPersonaje(personaje.getId());
+    }
+
+    private int obtenerIdUltimoPersonajeInsertado() throws PersonajeException {
+        String query = "SELECT MAX(id) AS last_id FROM personajes";
+        Statement statement = null;
+        ResultSet rs = null;
+        int lastId = -1;
+        try {
+            statement = getConexion().createStatement();
+            rs = statement.executeQuery(query);
+            if (rs.next()) {
+                lastId = rs.getInt("last_id");
+            }
+        } catch (SQLException exception) {
+            throw new PersonajeException(exception.getMessage(), exception);
+        } finally {
+            try {
+                if (rs != null && !rs.isClosed()) {
+                    rs.close();
+                }
+                if (statement != null && !statement.isClosed()) {
+                    statement.close();
+                }
+                if (!getConexion().isClosed()) {
+                    getConexion().close();
+                }
+            } catch (SQLException e) {
+                throw new PersonajeException(e.getMessage(), e);
+            }
+        }
+        return lastId;
+    }
+
+
+    private void insertarPoderes(Set<Poder> poderes, int idPersonaje) throws PersonajeException {
+        if (poderes == null || poderes.isEmpty()) {
+            return;
+        }
+        String query = "INSERT INTO poderes (personaje_id, poder) VALUES ";
+        for (Poder poder : poderes) {
+            query += "('" + idPersonaje + "', '" + poder.getPoder() + "'), ";
+        }
+        query = query.substring(0, query.length() - 2);
+        actualizar(query);
+    }
+
+    private void eliminarPoderesPorIdPersonaje(int idPersonaje) throws PersonajeException {
+        String query = "DELETE FROM poderes WHERE personaje_id=" + idPersonaje;
         actualizar(query);
     }
 
