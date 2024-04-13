@@ -72,7 +72,7 @@ public class OperacionesBd extends Conexion {
         return lista;
     }
 
-    private Set<Poder> obtenerPoderesSet(int id) throws PersonajeException {
+    public Set<Poder> obtenerPoderesSet(int id) throws PersonajeException {
         String query = "SELECT p.id, po.poder " +
                 "FROM Personajes AS p " +
                 "JOIN Poderes AS po ON p.id = po.personaje_id " +
@@ -150,7 +150,7 @@ public class OperacionesBd extends Conexion {
         eliminarPoderesPorIdPersonaje(personaje.getId());
     }
 
-    private int obtenerIdUltimoPersonajeInsertado() throws PersonajeException {
+    public int obtenerIdUltimoPersonajeInsertado() throws PersonajeException {
         String query = "SELECT MAX(id) AS last_id FROM personajes";
         Statement statement = null;
         ResultSet rs = null;
@@ -182,7 +182,7 @@ public class OperacionesBd extends Conexion {
     }
 
 
-    private void insertarPoderes(Set<Poder> poderes, int idPersonaje) throws PersonajeException {
+    public void insertarPoderes(Set<Poder> poderes, int idPersonaje) throws PersonajeException {
         if (poderes == null || poderes.isEmpty()) {
             return;
         }
@@ -194,7 +194,7 @@ public class OperacionesBd extends Conexion {
         actualizar(query);
     }
 
-    private void eliminarPoderesPorIdPersonaje(int idPersonaje) throws PersonajeException {
+    public void eliminarPoderesPorIdPersonaje(int idPersonaje) throws PersonajeException {
         String query = "DELETE FROM poderes WHERE personaje_id=" + idPersonaje;
         actualizar(query);
     }

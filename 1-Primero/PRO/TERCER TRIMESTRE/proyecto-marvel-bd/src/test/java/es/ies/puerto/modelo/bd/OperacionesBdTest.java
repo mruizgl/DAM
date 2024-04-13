@@ -78,5 +78,30 @@ public class OperacionesBdTest {
 
     }
 
+    @Test
+    public void insertarPoderesTest() {
+        Personaje nuevoPersonaje = new Personaje(5, "NombreTest", "AliasTest", "GeneroTest", new HashSet<>());
+
+        try {
+            operacionesBd.insertarPersonaje(nuevoPersonaje);
+            Set<Poder> poderes = new HashSet<>();
+            poderes.add(new Poder("Poder1"));
+            poderes.add(new Poder("Poder2"));
+            poderes.add(new Poder("Poder3"));
+
+            int idPersonaje = 5;
+            operacionesBd.insertarPoderes(poderes, idPersonaje);
+            Set<Poder> poderesRecuperados = operacionesBd.obtenerPoderesSet(idPersonaje);
+
+            Assertions.assertEquals(poderes, poderesRecuperados, MESSAGE_ERROR);
+
+            operacionesBd.eliminarPoderesPorIdPersonaje(idPersonaje);
+            Set<Poder> poderesEliminados = operacionesBd.obtenerPoderesSet(idPersonaje);
+            Assertions.assertTrue(poderesEliminados.isEmpty(), MESSAGE_ERROR);
+        } catch (PersonajeException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
 
 }
