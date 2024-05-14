@@ -30,9 +30,6 @@ public class Poder {
 
     @Override
     public String toString() {
-        return "Poder{" +
-                "personaje_id=" + personajeId +
-                ", poder='" + poder + '\'' +
-                '}';
+        return poder;
     }
 }

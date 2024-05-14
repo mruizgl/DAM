@@ -37,6 +37,34 @@ public class OperacionesBdTest {
             Assertions.fail(e.getMessage());
         }
 
+    }
+
+    @Test
+    public void insertarPersonajeTest() {
+       // try {
+            //operacionesBd.insertarPersonaje(personaje);
+            //Set<Personaje> lista = operacionesBd.obtenerPersonajes();
+            //Assertions.assertEquals(3, lista.size(), MESSAGE_ERROR);
+            //Assertions.assertEquals(3, personaje.getId(), MESSAGE_ERROR);
+            //Assertions.assertEquals("dkslfm", personaje.getNombre(), MESSAGE_ERROR);
+            //Assertions.assertEquals("pepe", personaje.getAlias(), MESSAGE_ERROR);
+            //Assertions.assertEquals("hombre", personaje.getGenero(), MESSAGE_ERROR);
+            System.out.println(personaje.getPoderes());
+
+       // } catch (PersonajeException e) {
+       //     throw new RuntimeException(e);
+       // }
+    }
+
+    @Test
+    public void eliminarPersonajeTest() {
+        try {
+            Set<Personaje> lista = operacionesBd.obtenerPersonajes();
+            operacionesBd.eliminarPersonaje(personaje);
+            Assertions.assertEquals(2, lista.size(), MESSAGE_ERROR);
+        } catch (PersonajeException e) {
+            throw new RuntimeException(e);
+        }
 
     }
 

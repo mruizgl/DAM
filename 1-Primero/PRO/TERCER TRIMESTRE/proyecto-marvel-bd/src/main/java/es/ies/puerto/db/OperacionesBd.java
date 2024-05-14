@@ -125,22 +125,22 @@ public class OperacionesBd extends Conexion {
     }
 
     public void insertarPersonaje(Personaje personaje) throws PersonajeException {
-        String query = "INSERT INTO personajes as p (nombre, alias, genero, poderes)" +
-                " VALUES ('"+personaje.getNombre()+"',"
-                + personaje.getAlias()+"," +
-                " '"+personaje.getGenero()+"', '"+personaje.getPoderes()+"')";
+        String query = "INSERT INTO personajes (id, nombre, alias, genero) VALUES " +
+                "(" + personaje.getId() + ", '" + personaje.getNombre() + "', '" + personaje.getAlias() + "', '" +
+                personaje.getGenero() + "')";
         actualizar(query);
     }
 
+
     public void actualizarPersonaje(Personaje personaje) throws PersonajeException{
-        String query = "update personajes set nombre='"+personaje.getNombre()+"', " +
+        String query = "update personajes set id= "+personaje.getId()+" nombre='"+personaje.getNombre()+"', " +
                 "alias='"+personaje.getAlias()+"', genero="+personaje.getAlias()+", poder= '"+personaje.getPoderes()+"' " +
                 "where id='"+personaje.getNombre()+"'";
         actualizar(query);
     }
     public void eliminarPersonaje(Personaje personaje) throws PersonajeException{
-        String query = "delete FROM personajes as p" +
-                " where p.nombre='"+personaje.getNombre()+"'";
+        String query = "delete FROM personajes" +
+                " where id="+personaje.getId();
         actualizar(query);
     }
 
