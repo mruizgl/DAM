@@ -15,6 +15,22 @@ public class Poder {
         this.poder = poder;
     }
 
+    public int getPersonajeId() {
+        return personajeId;
+    }
+
+    public void setPersonajeId(int personajeId) {
+        this.personajeId = personajeId;
+    }
+
+    public String getPoder() {
+        return poder;
+    }
+
+    public void setPoder(String poder) {
+        this.poder = poder;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
